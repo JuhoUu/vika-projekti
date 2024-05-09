@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    
+    <title>Document</title>
+    <style>
+        /* Custom styles */
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body class="container mt-5">
+    <div class="jumbotron">
+        <h1 class="display-4">Finnkino Elokuvasovellus</h1>
+    </div>
+    <div class="form-group">
+        <label for="theater-select">Choose a theater:</label>
+        <select id="theater-select" class="form-control">
+            <!-- Teatterien valintavaihtoehdot tulevat tähän -->
+        </select>
+    </div>
+    <div class="form-group">
+        <input type="text" id="search-input" class="form-control" placeholder="Search...">
+    </div>
+
+    <div id="movies-list">
+        <!-- Elokuvien tiedot tulevat tähän -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./scripts/script.js"></script> 
+</body>
+</html>
